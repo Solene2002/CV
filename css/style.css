@@ -1,0 +1,393 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f3f3f3;
+}
+
+section {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+}
+
+section hr {
+    background: #9c4bdf;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+hr {
+    width: 5rem;
+    height: .3125rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+/*Header*/
+
+header {
+    height: 40.625rem;
+    padding-top: 3.15rem;
+    background-image: url("../img/header.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+header .logonavbar .logo h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: white;
+}
+
+
+header .logonavbar .logo h2 {
+    font-size: .87rem;
+    font-weight: 300;
+    color: white;
+    margin-top: 1.87rem;
+}
+
+header .logonavbar .navbar ul {
+    float: right;
+}
+
+header .logonavbar .navbar ul li {
+    float: left;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: white;
+}
+
+header .logonavbar .navbar ul li {
+    margin-left: 3rem;
+}
+
+header .logonavbar .navbar ul li a {
+    color: inherit;
+}
+
+header .logonavbar .navbar ul li a.hvr-underline-from-left::before {
+    background: #9c4bdf;
+}
+
+
+header h1.phrase {
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10rem
+}
+
+header h1.phrase span {
+    font-weight: 700;
+}
+
+
+/*A propos*/
+
+.propos h2 {
+    font-size: 2.18rem;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+}
+
+.propos h3 {
+    margin-bottom: 2rem;
+    font-size: 1.565rem;
+    font-weight: 600;
+    color: black;
+}
+
+.propos p {
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: black;
+}
+
+.propos ul {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.propos ul a {
+    color: #9c4bdf;
+    text-decoration: underline;
+}
+
+.propos img.photo {
+    height: 75%;
+}
+
+/*Compétences barre*/
+
+.compétences {
+    background-color: #3d3c3c;
+}
+
+.compétences h2 {
+    font-size: 2.15rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+
+.compétences .flex {
+    display: flex;
+    align-items: center;
+    margin-top: 1.55rem;
+}
+
+.compétences .flex .percent {
+    font-size: 6.25rem;
+    font-weight: 700;
+    line-height: 6.25rem;
+    color: grey;
+}
+
+.compétences .flex .barre {
+    flex-basis: 100%;
+    padding-left: 2rem
+}
+
+.compétences .flex .barre strong {
+    font-size: 1.30rem;
+    font-weight: 700;
+    color: white;
+}
+
+.compétences .flex .barre .progress {
+    background-color: #656565
+}
+
+.compétences .flex .barre .progress .progress-bar {
+    height: 1.125rem;
+    background-color: #9c4bdf;
+}
+
+/*Experience*/
+
+.experience h2 {
+    font-size: 2.15rem;
+    font-weight: 800;
+    color: #3d3c3c;
+    text-align: center
+}
+
+.experience hr {
+    margin-bottom: 0
+}
+
+.experience article {
+    position: relative;
+    margin-top: 4.375rem;
+    background-color: #282828;
+    padding: 1.25rem 2.1875rem 3.4375rem
+}
+
+.experience article .date {
+    position: absolute;
+    background: #9c4bdf;
+    top: -1.125rem;
+    left: -.85rem;
+    font-size: 1.52rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    color: white;
+}
+
+.experience article h3,
+.experience article h4 {
+    text-align: right
+}
+
+.experience article h3 {
+    font-weight: 800;
+    color: white;
+}
+
+.experience article h4 {
+    margin-bottom: 2.85rem;
+    font-size: .935rem;
+    color: white;
+}
+
+.experience article p {
+    font-size: 1.15rem;
+    color: white;
+    text-align: justify
+}
+
+/*Formations*/
+
+.formations h2 {
+    font-size: 2.15rem;
+    font-weight: 800;
+    color: #3d3c3c;
+    text-align: center;
+}
+
+.formations hr {
+    margin-bottom: 0;
+}
+
+.formations article {
+    position: relative;
+    margin-top: 4.375rem;
+    background-color: #282828;
+    padding: 1.25rem 2.1875rem 3.4375rem;
+}
+
+.formations article .date {
+    position: absolute;
+    background: #9c4bdf;
+    top: -1.125rem;
+    left: -.85rem;
+    font-size: 1.52rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    color: white;
+}
+
+.formations article h3,
+.formations article h4 {
+    text-align: right;
+}
+
+.formations article h3 {
+    font-weight: 800;
+    color: white;
+}
+
+.formations article h4 {
+    margin-bottom: 2.85rem;
+    font-size: .935rem;
+    color: white;
+}
+
+.formations article p {
+    font-size: 1.15rem;
+    color: white;
+    text-align: justify
+}
+
+/*Footer*/
+
+footer p {
+    font-size: 1.15rem;
+    color: grey;
+    text-align: center;
+}
+
+/*Contact*/
+
+  button, input, select, textarea {
+    color: #9c4bdf;
+    font: inherit;
+    margin: 0;
+  }
+
+  #container {
+    border: solid 3px #9c4bdf;
+    max-width: 768px;
+    margin: 60px auto;
+    position: relative;
+  }
+  
+  form {
+    padding: 37.5px;
+    margin: 50px 0;
+  }
+  
+  h1 {
+    color: #9c4bdf;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .contact {
+    border-bottom: solid 2px #9c4bdf;
+    margin: -0.512em auto;
+    width: 80px;
+  }
+  
+  .email {
+      float: right;
+      width: 45%;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #9c4bdf;
+    color: #9c4bdf;;
+    font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  
+  input[type='text']:focus, [type='email']:focus, textarea:focus {
+      outline: none;
+      padding: 0 0 0.875em 0;
+  }
+  
+  .message {
+      float: none;
+  }
+  
+  .nom {
+      float: left;
+      width: 45%;
+  }
+  
+  .telephone {
+    width: 100%;
+  }
+  
+  textarea {
+      line-height: 150%;
+      height: 150px;
+      resize: none;
+    width: 100%;
+  }
+  
+  #bouton_envoyer {
+    background: none;
+    border: solid 2px #9c4bdf;;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.875em;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+  }
+  
+  #bouton_envoyer:hover {
+    background: #9c4bdf;;
+    color: #F2F3EB;
+  }
+  
+  
